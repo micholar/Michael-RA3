@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*- - - - - - -   Header   - - - - - - -*/
+header {
+    width: 100vw;
+    height: 80px;
+    background-color: #212916;
+    padding-top: 10px;
+    margin: 0;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+h1 {
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 0;
+    font-style: italic;
+    border-radius: 10px;
+}
+
+nav ul {
+    text-align: center;
+    background-color: #111f0e;
+    list-style: none;
+    padding: 5px;
+    box-shadow: 2px 2px 5px black;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 5px;
+    display: inline;
+    margin: 0 10px;
+    transition: all .3s ease;
+}
+
+nav ul li a, a {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    transition: all .2s ease-in;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    background-color: #415c3d;
+    color: aliceblue;
+}
+
+/*- - - - - - -   Header   - - - - - - -*/
+
+
+
+/*- - - - - - -   Main   - - - - - - -*/
+.main {
+    background-color: #ececec;
+    width: 950px;
+    margin: 190px auto 10px auto;
+    padding: 30px;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main img {
+    margin: auto 20px auto 0;
+    width: 520px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+article {
+    display: flex;
+}
+
+.contenido-article {
+    width: 400px;
+    text-align: justify;
+}
+
+.contenido-article h4 {
+    font-size: x-large;
+    padding: 0;
+    margin: 10px 0;
+}
+
+#fecha {
+    margin: 0;
+    font-size: 16px;
+    color: #666666;
+}
+
+#semi-noticia {
+    width: 400px;
+    text-align: justify;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+#divisor {
+    border: 0;
+    height: 1px;
+    width: 950px;
+    margin: 40px 0;
+    background-color: #c4c4c4;
+}
+
+#ver-mas {
+    color: #464646;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 160px;
+}
+
+#ver-mas:hover {
+    text-decoration: underline;
+}
+
+.main {
+    border-top: 4px solid #007527;
+}
+
+#semi-2 {
+    height: 450px;
+}
+
+/*- - - - - - -   Main   - - - - - - -*/
+
+
+
+/*- - - - - - -   Footer   - - - - - - -*/
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    bottom: 0;
+    position: relative; /* Asegura que el footer se posicione correctamente */
+}
+/*- - - - - - -   Footer   - - - - - - -*/
